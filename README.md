@@ -7,7 +7,7 @@ To use the Quote Generator, simply visit the live demo page and click the "Gener
 If you want to modify the Quote Generator code, you can clone this GitHub repository to your local machine and make changes as needed. Here are the steps:
 
 1. Open a terminal window and navigate to the directory where you want to store the Quote Generator code.
-2. Clone the repository by running the command git clone https://github.com/your-username/quote-generator.git.
+2. Clone the repository by running the command git clone https://github.com/amanshr72/Quote-generator.git
 3. Open the index.html file in your web browser to view the Quote Generator.
 4. Use your favorite text editor to modify the code as needed.
 
