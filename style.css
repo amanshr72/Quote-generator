@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand&amp;display=swap);
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    /*background-image: url( https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit);*/
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+    align-items: center;
+    text-shadow: 2px 2px 4px black;
+}
+hr{
+    width: 50%;
+    opacity: 0.8;
+}
+footer
+{
+    position: absolute;
+    bottom: 20px;
+    font-size: larger;
+    /*font-weight: bolder;*/
+}
+#time
+{
+    font-size: 8rem;
+}
+h1{
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+h2
+{
+    margin-bottom: 1rem;
+    opacity: 0.8;
+}
+
+@media (max-width:700px) {
+    #time{
+        font-size: 6rem;
+    }
+    
+}
+@media (max-height:600px) {
+    footer 
+    {
+        display: none;
+    }
+    
+}
